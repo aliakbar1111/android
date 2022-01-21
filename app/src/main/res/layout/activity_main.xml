@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+  android:padding="5dp"
+    android:gravity="center"
+    android:background="#532424"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+
+
+    >
+
+
+<Button
+    android:id="@+id/colum11"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+    android:visibility="invisible"
+    android:backgroundTint="#FFFFFF"
+    android:drawableEnd="@drawable/emoji13"
+    />
+
+    <Button
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum12"
+        android:visibility="invisible"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji14"
+    />
+
+    <Button
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum13"
+        android:visibility="invisible"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji15"
+    />
+
+    <Button
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum14"
+        android:visibility="invisible"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji16"
+    />
+
+    <Button
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum15"
+        android:visibility="invisible"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji17"
+
+
+    />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+
+
+    >
+
+
+<Button
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+   android:layout_marginRight="2dp"
+    android:id="@+id/colum21"
+     android:visibility="invisible"
+    android:backgroundTint="#FFFFFF"
+    android:drawableEnd="@drawable/emoji2"
+    />
+
+    <Button
+
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum22"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji3"
+    />
+
+    <Button
+
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum23"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji4"
+    />
+
+    <Button
+
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum24"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji5"
+    />
+
+    <Button
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum25"
+        android:visibility="invisible"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji6"
+    />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+
+
+    >
+
+
+<Button
+    android:visibility="invisible"
+       android:id="@+id/colum31"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:drawableEnd="@drawable/emoji1"
+    android:backgroundTint="#ffffff"
+
+
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum32"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji2"
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum33"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji3"
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum34"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji4"
+
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum35"
+
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji5"
+    />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+
+
+    >
+
+
+<Button
+    android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+    android:id="@+id/colum41"
+    android:backgroundTint="#FFFFFF"
+    android:drawableEnd="@drawable/emoji6"
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum42"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji7"
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum43"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji8"
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum44"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji9"
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum45"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji10"
+
+        />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+
+
+    >
+
+
+<Button
+    android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+   android:layout_marginRight="2dp"
+    android:id="@+id/colum51"
+    android:backgroundTint="#FFFFFF"
+    android:drawableEnd="@drawable/emoji11"
+
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum52"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji12"
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum53"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji13"
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum54"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji14"
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum55"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji15"
+    />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+
+
+    >
+
+
+<Button
+    android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+   android:layout_marginRight="2dp"
+    android:id="@+id/colum61"
+    android:backgroundTint="#FFFFFF"
+    android:drawableEnd="@drawable/emoji17"
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum62"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji16"
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum63"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji18"
+
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum64"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji19"
+
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum65"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji20"
+
+    />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+
+
+    >
+
+
+<Button
+    android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+   android:layout_marginRight="2dp"
+    android:id="@+id/colum71"
+    android:backgroundTint="#FFFFFF"
+    android:drawableEnd="@drawable/emoji21"
+
+
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum72"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji22"
+
+    />
+
+    <Button
+
+    android:layout_width="60dp"
+    android:layout_height="74dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum73"
+        android:backgroundTint="#FFFFFF"
+        android:text="Start"
+        android:textColor="#000000"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum74"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji23"
+
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji24"
+
+        android:id="@+id/colum75"
+    />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+
+
+
+    >
+
+
+<Button
+    android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+   android:layout_marginRight="2dp"
+    android:id="@+id/colum81"
+    android:backgroundTint="#FFFFFF"
+    android:drawableEnd="@drawable/emoji26"
+
+    />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum82"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji27"
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum83"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji28"
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum84"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji29"
+
+        />
+
+    <Button
+        android:visibility="invisible"
+    android:layout_width="60dp"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:layout_marginRight="2dp"
+        android:id="@+id/colum85"
+        android:backgroundTint="#FFFFFF"
+        android:drawableEnd="@drawable/emoji19"
+
+        />
+
+
+
+</LinearLayout>
+
+</LinearLayout>
